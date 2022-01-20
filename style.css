@@ -14,7 +14,7 @@
 
 .h1{
     font-size: 45px;
-    color: cornsilk;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      
 
@@ -52,12 +52,12 @@
     margin-top: 50px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: cornsilk;
+    color: white
 }
 
 a{
     text-decoration: none;
-    color: cornsilk;
+    color: white
 }
 
 button {
@@ -66,6 +66,9 @@ button {
     padding: 6px;
     font-size: 16px;
     font-weight: bold;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 3px;
 }
 
 h2 {
@@ -88,7 +91,6 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background-color: cornsilk;
 }
 .info{
     display: flex;
@@ -103,4 +105,52 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     gap: 25px;
+}
+.qu{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px;
+    
+}
+.nir{
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+.sr{
+    margin-left: 780px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.time{
+   background-color: #3882F6;
+    display: flex;
+    padding: 18px;
+    margin: 50px;
+}
+
+.con{
+    text-align: left;
+    margin-left: 70px;
+    color: white;
+    
+}
+.sing{
+    border-collapse: separate;
+    border: 1px solid white;
+    color: white;
+    background-color: #3882F6;
+    padding: 16px;
+    border-radius: 3px;
+    margin-left: 250px;
+    width: 150px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 25px;
 }
